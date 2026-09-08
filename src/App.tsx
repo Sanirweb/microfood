@@ -321,6 +321,20 @@ export default function App() {
                   ))}
                 </div>
               </div>
+
+              <div className="bg-green-900/30 rounded-lg p-3 border border-green-700">
+                <h3 className="font-semibold text-green-300 mb-2 flex items-center gap-2">
+                  <Download size={14} /> ZIP Contains ({fileCount} files)
+                </h3>
+                <div className="space-y-1 text-xs text-green-200">
+                  <p>✅ 3 Database SQL scripts with sample data</p>
+                  <p>✅ Postman collection + environment</p>
+                  <p>✅ Docker Compose + Dockerfiles</p>
+                  <p>✅ Complete Java source code (all 3 services)</p>
+                  <p>✅ Documentation (setup, API, architecture)</p>
+                  <p>✅ Maven pom.xml for each service</p>
+                </div>
+              </div>
             </div>
           ) : (
             <div className="overflow-y-auto flex-1 py-2">
